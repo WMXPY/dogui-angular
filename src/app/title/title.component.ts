@@ -14,6 +14,8 @@ import { Component, OnInit } from '@angular/core';
         padding: 0px;
         margin: 0px;
         height: 45px;
+        line-height: 30px;
+        vertical-align: middle;
         font-size: 21px;
         font-family: 'ubuntu'
       }
