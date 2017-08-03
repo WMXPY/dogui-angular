@@ -3,23 +3,27 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'dog-title',
   template: `
-    <div>
-      title Works!
+    <div class="titlebg">
+      <ng-content></ng-content>
     </div>
   `,
   styles: [
     `
-      div{
-        background-color: red;
+      .titlebg{
+        background-color: #c6c6c6;
         padding: 0px;
         margin: 0px;
+        height: 45px;
+        font-size: 21px;
+        font-family: 'ubuntu'
       }
     `
   ]
 })
 export class TitleComponent implements OnInit {
 
-  constructor() { }
+  constructor() {
+  }
 
   ngOnInit() {
   }
