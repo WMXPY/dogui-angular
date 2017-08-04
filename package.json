@@ -1,6 +1,8 @@
 {
-  "name": "anuglar-develop",
-  "version": "0.0.0",
+  "name": "dogui-angular",
+  "description": "A dog UI library for Angular4",
+  "main": "src/interface.js",
+  "version": "0.0.1",
   "license": "MIT",
   "scripts": {
     "ng": "ng",
@@ -10,7 +12,6 @@
     "lint": "ng lint",
     "e2e": "ng e2e"
   },
-  "private": true,
   "dependencies": {
     "@angular/animations": "^4.0.0",
     "@angular/common": "^4.0.0",
