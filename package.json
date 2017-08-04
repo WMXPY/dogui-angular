@@ -2,7 +2,7 @@
   "name": "dogui-angular",
   "description": "A dog UI library for Angular4",
   "main": "src/interface.js",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "license": "MIT",
   "scripts": {
     "ng": "ng",
